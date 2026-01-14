@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import './App.css'
 
 // 환경 변수에서 API 주소 가져오기, 없으면 기본값 사용
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:5000/api/todos'
+const API_BASE_URL = import.meta.env.VITE_API_URL
 
 function App() {
   const [todos, setTodos] = useState([])
